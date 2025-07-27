@@ -12,17 +12,17 @@ export default {
     },
     colors: {
       primary: {
-        200: '#ffffff', // almost white
-        400: '#B64D80', // dark pink
-        500: '#CD6899', // light pink 
-        600: '#99235C', // wine
+        200: '#f1f5f9', // light background (was almost white)
+        400: '#2563eb', // strong blue (was dark pink)
+        500: '#60a5fa', // accent blue (was light pink)
+        600: '#0f172a', // deep slate (was wine)
       },
       grayscale: {
-        25: '#E4E2DD', // beige
-        50: '#CD6899', 
+        25: '#f1f5f9', // light background (was beige)
+        50: '#e0f2fe', // pale blue (was pink)
         100: '#efefef',
-        200: '#FDFDFF',
-        950: '#823A5D',
+        200: '#bae6fd', // light blue (was off-white)
+        950: '#1e293b', // slate (was dark pink)
       },
     },
   },

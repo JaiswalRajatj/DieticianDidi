@@ -50,9 +50,11 @@ const ImageSlider = ({ images }) => {
           stiffness: 100,
           damping: 20,
         }}
-        className="w-full h-full blob drop-shadow-div"
-        style={{ backgroundImage: `url(${images[index]})` }}
-      ></m.div>
+        className="w-full h-full flex items-center justify-center bg-transparent"
+        style={{}}
+      >
+        <img src={images[index]} alt="avatar" className="object-contain max-h-full max-w-full rounded-xl shadow-none" />
+      </m.div>
     </LazyMotion>
   );
 };

@@ -19,10 +19,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "whoisbl33h",
-      "template1",
+      "service_jh51ach",
+      "template_ap6bv8c",
       e.target,
-      "JjC_Nnt4rUsjIsRtz"
+      "65yjPUNDTPTIGCEsy"
     )
       .then(
         (result) => {
@@ -67,29 +67,29 @@ const ContactForm = () => {
           className="w-[80%] h-full flex flex-col gap-4 pt-4 text-primary-200"
         >
           <div className="w-full flex flex-col">
-          <label htmlFor="firstname" style={{ fontWeight: 'bold', fontSize: '18px' }}>First Name</label>
+          <label htmlFor="name" style={{ fontWeight: 'bold', fontSize: '18px', color: '#1d293b' }}>Name</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
-              placeholder="Enter your First Name"
-              id="firstname"
+              placeholder="Enter your Name"
+              id="name"
               type="text"
               name="from_name"
               required
             />
           </div>
           <div className="w-full flex flex-col">
-          <label htmlFor="lastname" style={{ fontWeight: 'bold', fontSize: '18px' }}>Last Name</label>
+          <label htmlFor="mobile" style={{ fontWeight: 'bold', fontSize: '18px', color: '#1d293b' }}>Mobile Number</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
-              placeholder="Enter your Last Name"
-              id="lastname"
-              type="text"
-              name="from_last"
+              placeholder="Enter your Mobile Number"
+              id="mobile"
+              type="tel"
+              name="mobile"
               required
             />
           </div>
           <div className="w-full flex flex-col">
-          <label htmlFor="email" style={{ fontWeight: 'bold', fontSize: '18px' }}>E-mail</label>
+          <label htmlFor="email" style={{ fontWeight: 'bold', fontSize: '18px', color: '#1d293b' }}>E-mail</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
               placeholder="Enter your E-mail"
@@ -100,7 +100,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="w-full flex flex-col">
-          <label htmlFor="message" style={{ fontWeight: 'bold', fontSize: '18px' }}>Message</label>
+          <label htmlFor="message" style={{ fontWeight: 'bold', fontSize: '18px', color: '#1d293b' }}>Message</label>
             <textarea
               className="p-[0.5em] rounded-xl text-grayscale-950 bac bg-primary-200"
               placeholder="Enter your message..."

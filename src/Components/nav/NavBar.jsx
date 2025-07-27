@@ -37,13 +37,13 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: '#b3286c' }}>
+        <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: '#2563eb' }}>
           {navLinks.map((link) => {
             return (
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-white" : "text-secondary"
+                  active === link.title ? "text-white" : "text-primary-400"
                 } hover:text-white text-[24px] font-bold cursor-pointer `}
                 onClick={() => setActive(link.title)}
               >
@@ -70,7 +70,7 @@ const Navbar = () => {
                   <li
                     key={link.id}
                     className={`${
-                      active === link.title ? "text-white" : "text-secondary"
+                      active === link.title ? "text-white" : "text-primary-400"
                     } font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={() => {
                       setActive(link.title);

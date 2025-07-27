@@ -106,7 +106,7 @@ const ProjectCard = ({
   name,
   description,
   image,
-  source_code_link,
+//   source_code_link,
   demo_link,
 }) => {
   return (
@@ -143,7 +143,7 @@ const ProjectCard = ({
 
               <div className="mt-3">
                   <h3 className="text-white font-bold text-2xl">{name}</h3>
-                  <p className="mt-2 text-secondary text-[14px] leading-snug">
+                  <p className="mt-2 text-primary-600 text-[14px] leading-snug">
                       {description}
                   </p>
               </div>
@@ -154,7 +154,7 @@ const ProjectCard = ({
                       href={demo_link}
                       target="_blank"
                   >
-                      See the Demo
+                      Open🔗
                   </a>
               </div>
           </motion.div>
@@ -164,7 +164,7 @@ const ProjectCard = ({
 
 const Works = () => {
     return (
-        <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
+        <div className="mt-5 flex flex-wrap justify-center gap-4 w-full" style={{ color: '#1e293b' }}>
             {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
