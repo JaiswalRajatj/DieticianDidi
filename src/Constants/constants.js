@@ -90,7 +90,7 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here!",
 
-		"👋 Hi! I’m Dt. Praveena Mishra, a clinical dietitian with 5+ years of industry experience, serving over 1,000+ clients across India. I specialize in crafting custom diet plans that are realistic, region-specific, and tailored to individual health goals and food habits.",
+		"👋 Hi! I’m Dt. Praveena Mishra, a clinical dietitian with 5+ years of industry experience, serving over 10,000+ clients across India. I specialize in crafting custom diet plans that are realistic, region-specific, and tailored to individual health goals and food habits.",
     "No boring meals. No crash diets. Just delicious, science-backed nutrition that fits your culture, lifestyle, cravings, and medical needs — whether it’s diabetes, PCOS, thyroid, weight loss, or muscle gain.",
     "My goal is simple: to make healthy living easy, personal, and sustainable. Let’s work together to build a plan that feels good, tastes great, and actually works for you.",
   ],
