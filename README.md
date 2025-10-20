@@ -1,61 +1,148 @@
-# who's bl33h ?
-Welcome to my portfolio repository! This project showcases my skills using React, ESLint, Tailwind, and Vite. It includes a brief introduction about me, my projects, the technologies I've worked with, and my experience. You'll also find a contact form at the bottom and my social media links below it. Feel free to explore and connect with me!
+# DieticianDidi
 
-<p align="center">
-  <br>
-  <img src="src/assets/wb.png" alt="wb" width="600">
-  <br>
-</p>
-<p align="center" >
-  <a href="#features">Features</a> •
-  <a href="#Files">Files</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#packages">Packages</a>   
-</p>
-<p align="center" >
-<a href="https://whosbl33h.netlify.app/">Try it out here</a> 
-</p>
+## Introduction
+
+DieticianDidi is an innovative platform designed to provide personalized diet and nutrition advice. Built to cater to users looking to improve their eating habits, manage health conditions, or achieve specific health goals, the application leverages modern web technologies and intelligent algorithms. DieticianDidi aims to simplify the journey toward a healthier lifestyle by delivering tailored meal plans, tracking user progress, and offering expert nutritional guidance.
 
 ## Features
 
-* Vite
-```bash
-# Install dependencies
-$ npm i
-# run the app
-$ npm run dev
+- **Personalized Diet Plans**  
+  Users receive meal recommendations based on their health profiles, dietary preferences, and fitness goals.
+
+- **Interactive Chatbot**  
+  An integrated chatbot assists users by answering diet-related queries and offering instant guidance.
+
+- **Health Metrics Tracking**  
+  Users can log food intake, monitor calories, and track macronutrients for improved accountability.
+
+- **User Authentication**  
+  Secure registration and login ensure privacy and protect user data.
+
+- **Recipe Suggestions**  
+  The platform offers healthy recipes that fit individual dietary restrictions and preferences.
+
+- **Progress Dashboard**  
+  Users can visualize their journey with charts and summary statistics.
+
+- **Admin Panel**  
+  Administrators can manage users, content, and monitor system health.
+
+## Installation
+
+Follow these steps to set up DieticianDidi locally:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/JaiswalRajatj/DieticianDidi.git
+   cd DieticianDidi
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+   or, if you are using Yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Setup Environment Variables**
+   - Copy the example environment file and edit it with your configuration.
+   ```bash
+   cp .env.example .env
+   ```
+   - Update database URI, API keys, and other secrets in `.env`.
+
+4. **Run Database Migrations**  
+   Ensure your database is running and apply any migrations (if applicable):
+   ```bash
+   npm run migrate
+   ```
+
+5. **Start the Development Server**
+   ```bash
+   npm start
+   ```
+   The app will be available at `http://localhost:3000`.
+
+## Usage
+
+Once installed, you can start using DieticianDidi by registering as a new user or logging in with existing credentials.
+
+- **Register / Login:**  
+  Access the registration or login page to create an account or sign in.
+  
+- **Set Up Profile:**  
+  Enter basic information such as age, weight, height, activity level, and dietary preferences.
+
+- **Explore the Dashboard:**  
+  Use the dashboard to view your daily meal plan, track nutrition, and log meals.
+
+- **Interact with the Chatbot:**  
+  Ask questions or get instant advice using the integrated chatbot.
+
+- **Browse Recipes:**  
+  Explore healthy recipes tailored to your goals.
+
+- **Monitor Progress:**  
+  Check your progress in the dashboard with visualizations and reports.
+
+- **Admin Controls:**  
+  (For admin users) Access the admin panel to manage users and application data.
+
+### Example User Flow
+
+```mermaid
+flowchart TD
+    A[User Registers/Logs In] --> B[Completes Profile]
+    B --> C[Receives Diet Plan]
+    C --> D[Logs Meals & Tracks Metrics]
+    D --> E[Views Progress Dashboard]
+    E --> F[Uses Chatbot for Guidance]
+    F --> G[Explores More Recipes]
 ```
 
-## Files
+## Contributing
 
-- src: the file that implements de solution.
-- assets: resources that are used in an application.
-- components: reusable pieces of code that define the appearance and behavior of a part of the UI.
-- pages: the different areas of the portfolio.
-- constants: values that cannot be altered by the program during normal execution.
+We welcome contributions to DieticianDidi! To contribute, follow these guidelines:
 
+- **Fork the Repository**  
+  Create your own fork and clone it locally.
 
-## How To Use
+- **Create a Feature Branch**  
+  Make a branch for your feature or bugfix.
+  ```bash
+  git checkout -b feature/your-feature
+  ```
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en) and [Vite](https://vitejs.dev/) installed on your computer. From your command line:
+- **Make Changes & Test**  
+  Implement your changes and test thoroughly.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/bl33h/whosbl33h
+- **Commit and Push**  
+  Commit with clear messages and push your branch.
+  ```bash
+  git add .
+  git commit -m "Add: your descriptive message"
+  git push origin feature/your-feature
+  ```
 
-# Install dependencies
-$ npm i
+- **Create a Pull Request**  
+  Open a pull request on GitHub detailing your changes.
 
-# Run the app
-$ npm run dev
-```
+- **Code Review**  
+  Collaborate with maintainers for any required changes.
 
-## Packages
+- **Stay Updated**  
+  Regularly sync with the main branch to avoid conflicts.
 
-This software uses the following open source packages:
+### Contribution Guidelines
 
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Follow the existing code style and architecture.
+- Write clear, descriptive commit messages.
+- Add comments and documentation where necessary.
+- Include tests for new features or bugfixes.
+- Be respectful and constructive in code reviews.
 
-[<img src="https://api.gitsponsors.com/api/badge/img?id=649204807" height="20">](https://api.gitsponsors.com/api/badge/link?p=MUkxRjrlqt6KB8+cP2eszgN9+GDmjEXM+NtA5Hqkun6R+UmwAHjgphDBpuhoFLxL8AQdBnuROEXrmX+GgK0dSeIlQBrFqQuDKOdyqv/eTPw=)
+---
+
+Thank you for contributing to DieticianDidi and helping to make healthy living accessible for everyone!
